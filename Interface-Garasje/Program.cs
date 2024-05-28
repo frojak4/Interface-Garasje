@@ -10,8 +10,11 @@
                 new Boat("Yamaha", "Superboat", 2004)
             };
 
+            vehicles[0].Year = 2026;
+
             foreach (var vehicle in vehicles )
             {
+                Console.WriteLine($"{vehicle.brand} {vehicle.name} {vehicle.year}");
                 vehicle.drive();
             }
         }

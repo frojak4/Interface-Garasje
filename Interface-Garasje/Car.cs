@@ -24,5 +24,28 @@ namespace Interface_Garasje
             Name = name;
             Year = year;
         }
+
+        public int Year
+        {
+            get
+            {
+                return year;
+            }
+            set
+            {
+                if (year > 2024)
+                {
+                    year = 2024;
+                }
+                else if (year < 1900)
+                {
+                    year = 1900;
+                }
+                else
+                {
+                    year = value;
+                }
+            }
+        }
     }
 }
