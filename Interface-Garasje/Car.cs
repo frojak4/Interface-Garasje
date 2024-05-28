@@ -22,7 +22,6 @@ namespace Interface_Garasje
         {
             Brand = brand;
             Name = name;
-            Year = year;
         }
 
         public int Year

@@ -10,6 +10,7 @@ namespace Interface_Garasje
     {
         public string brand { get; set; }
         public string name { get; set; }
+
         public int year { get; set; }
 
         public int Year { get; set; }
